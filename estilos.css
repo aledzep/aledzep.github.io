@@ -1,0 +1,249 @@
+#Mi_título {
+   font-size: 70px;
+   margin-top: 100px;
+   color: #FFF;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+}
+h2 {
+   Color: #FFF;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+}
+body{
+   background-color:rgb(77, 67, 63);
+   background-image: url('Al_Khan_Lagoon_by_Night.jpg');background-repeat: no-repeat; margin-top: 200px; 
+   background-size: 100%;
+   text-align: center;
+}
+.circular--portrait {
+   margin-left: 550px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.circular--portrait img {
+   width: 100%;
+   height: auto;
+}
+img{
+   display:block;
+   margin:auto;
+   opacity: 0.8;
+}
+div{
+   max-width: 200px;
+   height: 200px;     
+}
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Tourney', cursive;
+   padding: 90px 20px  0px;
+}
+.header{
+   background-color:rgb(77, 67, 63);
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+   max-width: 992px;
+   margin: 0 auto;
+}
+.nav-link {
+   color:  #3d3697;
+   text-decoration: none;
+}
+.CONTACTO {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+}
+.nav-menu {
+   display: flex;
+   margin-right: 40px;
+   list-style: none;
+}
+.nav-menu-item {
+   font-size: 18px;
+   margin: 0 10px;
+   line-height: 80px;
+   text-transform: uppercase;
+   width: max-content;
+}
+.nav-menu-link {
+   padding: 8px 12px;
+   border-radius: 3px;
+}
+.nav-menu-link:hover,
+.nav-menu-link_active {
+   background-color: #e3f5f3;
+   transition: .5s;
+}
+.nav-toggle {
+   color: rgb(255, 255, 255);
+   background: none;
+   border: none;
+   font-size: 30px;
+   padding: 0 20px;
+   line-height: 60px;
+   cursor: pointer;
+   display: none;
+} 
+@media (max-width: 768px) {
+   body {background-color: rgb(216, 140, 41);
+  }
+}
+body {
+   padding-top: 70px;
+}
+.header{
+   height: 60px;
+}
+.CONTACTO {
+   font-size: 25px;
+   padding: 0 20px;
+   line-height: 60px;
+}
+.nav-menu {
+   flex-direction: column;
+   align-items: first baseline;
+   margin-right: 20px;
+   background-color: #6b9184;
+   opacity: 0.9;
+   position: fixed;
+   left: 0;
+   top: 60px;
+   width: 100%;
+   padding: 20px 0;
+   height: calc(100% - 60px);
+   overflow-y: auto;
+   left: 100%;
+   transition: left 0.3s;
+}
+.nav-menu-item {
+   line-height: 70px;
+}
+.nav-menu-link:hover, 
+.nav-menu-link_active {
+   background: none;
+   color:#d1f5de;
+}
+.nav-toggle {
+   display: block;
+}
+.nav-menu_visible {
+   left: 0;
+}
+.frase {
+   margin-top: 5000px;
+   font-size: 40px;
+}
+p {
+   text-align: center;
+   margin-top: 30px 30px 3;
+   margin-left: auto;
+}
+.ventanaContacto {
+   background: rgba(245, 192, 192, 0.678) ;
+   width: 300%;
+   Color: #0c0b0b;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+   font-size: 14px;
+   text-align: left;
+   padding:10px;
+   min-height: 200px;
+   border-radius: 10px;
+   position:absolute; 
+   left: 18%;
+   margin-top: 4%;
+   margin-left: -5%;
+   display: none;
+}
+.ventana {
+   background: rgb(243, 239, 239) ;
+   width: 60%;
+   Color: #0c0b0b;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+   font-size: 14px;
+   text-align: left;
+   padding:33px;
+   min-height: 25px;
+   border-radius: 10px;
+   position: fixed; 
+   left: 18%;
+   margin-top: auto;
+   display: none;
+}
+ .ventana2 {
+   background: rgb(243, 239, 239) ;
+   width: 70%;
+   Color: #0c0b0b;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+   font-size: 11px;
+   text-align: left;
+   padding:0px;
+   min-height: 25px;
+   border-radius: 10px;
+   position: fixed; 
+   left: 18%;
+   margin-top: auto;
+   display: none;
+   margin-bottom: 50px;
+}
+ .ventana3 {
+   background: rgb(243, 239, 239) ;
+   width: 60%;
+   Color: #0c0b0b;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+   font-size: 12px;
+   text-align: left;
+   padding:0px;
+   min-height: 25px;
+   border-radius: 10px;
+   position: fixed; 
+   left: 18%;
+   margin-top: auto;
+   display: none;
+}
+ .ventana4 {
+   background: rgb(243, 239, 239) ;
+   width: 60%;
+   Color: #0c0b0b;
+   text-shadow: 0 0 15px #FFF,0 0 20px #3d3697,0 0 30px #2b29a5,0 0 40px #2b2db8,0 0 55px #2f3ad6,0 0 75px #313894;
+   font-family:'Tourney', cursive;
+   font-size: 13px;
+   text-align: left;
+   padding:0px;
+   min-height: 25px;
+   border-radius: 10px;
+   position: fixed; 
+   left: 18%;
+   margin-top: auto;
+   display: none;
+}
+ #cerrar {
+   position: absolute;
+   top: 3px;
+   right: 3px;
+   background: none;
+   opacity: 0.5;
+ }
+ .text  {
+   display: none;
+ }
+.formulario{
+   width: 100%;
+   height: 5%;
+}
